@@ -1,6 +1,6 @@
 # Modular Token Tray 3d model generator
 
-1×1×1 の Magnet Tray (Storage Box) の 3MF/STL を元に、任意サイズの
+1×1×1 の Magnet Tray (Storage Box) の 3MF/STL(https://makerworld.com/ja/models/708921-1x1x1-magnetic-modular-token-storage-tray#profileId-639196) を元に、任意サイズの
 トレイと蓋の STL を生成するツールです。CLI と PyQt5 GUI の両方を含みます。
 
 ```
