@@ -1,0 +1,20 @@
+# Magnet Tray Generator - 依存パッケージ
+#   pip install -r requirements.txt
+
+# --- コア (CLI: magnet_tray_generator.py) ---
+numpy>=1.26
+trimesh>=4.5          # メッシュ処理 (断面/押し出し/入出力)
+manifold3d>=3.0       # ブーリアン演算エンジン
+shapely>=2.0          # 2Dポリゴン演算 (断面/ハニカム/仕切り)
+lxml>=5.0             # Bambu Studio 3MF のXMLパース
+networkx>=3.0         # trimeshの断面パス処理で使用
+scipy>=1.11           # trimeshの内部処理で使用
+
+# --- GUI (magnet_tray_gui.py) ---
+PyQt5>=5.15
+matplotlib>=3.8       # プレビュー (フォールバック描画)
+
+# --- GUI 高速3Dプレビュー (推奨・任意) ---
+# 未インストールでも matplotlib プレビューに自動フォールバックします
+pyqtgraph>=0.13
+PyOpenGL>=3.1
